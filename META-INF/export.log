@@ -1,0 +1,133 @@
+Success (5):
+group 87 _e-0000e449-78ce-8000-9af5-01075c01075c_289 "AT Action Initiators"
+group 88 _e-0000e449-78ce-8000-9af5-01075c01075c_291 "AT Administrators"
+processModelFolder 31 _g-0000e449-78ce-8000-f9b7-7f0000014e7a_130 "AT Process Models"
+processModel 600 0002e44e-8658-8000-f9d9-7f0000014e7a "AT First Action"
+application 18841 _a-0000e449-78ce-8000-9ba9-011c48011c48_111466 "Appian Tutorial"
+
+Referenced precedents that were not exported (1):
+user madhu.mudunuri@valuelabs.com madhu.mudunuri@valuelabs.com
+
+Trace:
+2020-04-11 12:15:06.501 DEBUG application 18841 _a-0000e449-78ce-8000-9ba9-011c48011c48_111466 Begin transport.
+2020-04-11 12:15:06.501 DEBUG application 18841 _a-0000e449-78ce-8000-9ba9-011c48011c48_111466 Retrieving object data.
+2020-04-11 12:15:06.516 DEBUG application 18841 _a-0000e449-78ce-8000-9ba9-011c48011c48_111466 App associated objects: [group=[_e-0000e449-78ce-8000-9af5-01075c01075c_289, _e-0000e449-78ce-8000-9af5-01075c01075c_291],processModelFolder=[_g-0000e449-78ce-8000-f9b7-7f0000014e7a_130],processModel=[0002e44e-8658-8000-f9d9-7f0000014e7a]]
+2020-04-11 12:15:06.522 DEBUG application 18841 _a-0000e449-78ce-8000-9ba9-011c48011c48_111466 Invalid associated objects: []
+2020-04-11 12:15:06.522 DEBUG application 18841 _a-0000e449-78ce-8000-9ba9-011c48011c48_111466 Adding valid associated objects to be exported: GlobalBindingMap[group={_e-0000e449-78ce-8000-9af5-01075c01075c_289=87, _e-0000e449-78ce-8000-9af5-01075c01075c_291=88},processModelFolder={_g-0000e449-78ce-8000-f9b7-7f0000014e7a_130=31},processModel={0002e44e-8658-8000-f9d9-7f0000014e7a=600}]
+2020-04-11 12:15:06.522 DEBUG application 18841 _a-0000e449-78ce-8000-9ba9-011c48011c48_111466 Setting uuids of object references.
+2020-04-11 12:15:06.524 DEBUG application 18841 _a-0000e449-78ce-8000-9ba9-011c48011c48_111466 Processing reference: Application.forum
+2020-04-11 12:15:06.524 DEBUG application 18841 _a-0000e449-78ce-8000-9ba9-011c48011c48_111466 Processing reference: Application.parent
+2020-04-11 12:15:06.527 DEBUG application 18841 _a-0000e449-78ce-8000-9ba9-011c48011c48_111466 Processing reference: com.appiancorp.suiteapi.content.ContentRoleMap@79198557[
+  ContentRole[name=readers,groupIds=[87],inherit=false,allowForAll=true]
+  ContentRole[name=authors,inherit=false,allowForAll=false]
+  ContentRole[name=administrators,usernames=[madhu.mudunuri@valuelabs.com],groupIds=[88],inherit=false,allowForAll=false]
+  ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+  ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+  ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+  securityVector=145:SEC_PUBLIC=true,SEC_CREATOR_ADMIN=true,SEC_INH_ADMIN=false,SEC_INH_EDITOR=false,SEC_INH_VIEWER=false,SEC_ALL_ADMIN=false,SEC_ALL_EDITOR=false,SEC_ALL_VIEWER=true
+]
+2020-04-11 12:15:06.527 DEBUG application 18841 _a-0000e449-78ce-8000-9ba9-011c48011c48_111466 Processing reference: ContentRole[name=readers,groupIds=[87],inherit=false,allowForAll=true]
+2020-04-11 12:15:06.53 DEBUG group 87 _e-0000e449-78ce-8000-9af5-01075c01075c_289 Begin transport.
+2020-04-11 12:15:06.53 DEBUG group 87 _e-0000e449-78ce-8000-9af5-01075c01075c_289 Retrieving object data.
+2020-04-11 12:15:06.547 DEBUG group 87 _e-0000e449-78ce-8000-9af5-01075c01075c_289 Setting uuids of object references.
+2020-04-11 12:15:06.547 DEBUG group 87 _e-0000e449-78ce-8000-9af5-01075c01075c_289 Processing reference: Role[name=<null>,usernames=[madhu.mudunuri@valuelabs.com]]
+2020-04-11 12:15:06.549 DEBUG group 87 _e-0000e449-78ce-8000-9af5-01075c01075c_289 Processing reference: Group.groupTypeId
+2020-04-11 12:15:06.551 DEBUG group 87 _e-0000e449-78ce-8000-9af5-01075c01075c_289 Processing reference: Group.parentId
+2020-04-11 12:15:06.551 DEBUG group 87 _e-0000e449-78ce-8000-9af5-01075c01075c_289 Processing reference: Group.homePageId
+2020-04-11 12:15:06.551 DEBUG group 87 _e-0000e449-78ce-8000-9af5-01075c01075c_289 Processing reference: Role[name=<null>]
+2020-04-11 12:15:06.552 DEBUG group 87 _e-0000e449-78ce-8000-9af5-01075c01075c_289 Completing produce.
+2020-04-11 12:15:06.552 DEBUG group 87 _e-0000e449-78ce-8000-9af5-01075c01075c_289 Exporting binary resources.
+2020-04-11 12:15:06.552 DEBUG group 87 _e-0000e449-78ce-8000-9af5-01075c01075c_289 Serializing object to XML.
+2020-04-11 12:15:06.566 DEBUG group 87 _e-0000e449-78ce-8000-9af5-01075c01075c_289 Object transported.
+2020-04-11 12:15:06.566 DEBUG application 18841 _a-0000e449-78ce-8000-9ba9-011c48011c48_111466 Processing reference: ContentRole[name=authors,inherit=false,allowForAll=false]
+2020-04-11 12:15:06.566 DEBUG application 18841 _a-0000e449-78ce-8000-9ba9-011c48011c48_111466 Processing reference: ContentRole[name=administrators,usernames=[madhu.mudunuri@valuelabs.com],groupIds=[88],inherit=false,allowForAll=false]
+2020-04-11 12:15:06.568 DEBUG group 88 _e-0000e449-78ce-8000-9af5-01075c01075c_291 Begin transport.
+2020-04-11 12:15:06.568 DEBUG group 88 _e-0000e449-78ce-8000-9af5-01075c01075c_291 Retrieving object data.
+2020-04-11 12:15:06.575 DEBUG group 88 _e-0000e449-78ce-8000-9af5-01075c01075c_291 Setting uuids of object references.
+2020-04-11 12:15:06.575 DEBUG group 88 _e-0000e449-78ce-8000-9af5-01075c01075c_291 Processing reference: Role[name=<null>,usernames=[madhu.mudunuri@valuelabs.com]]
+2020-04-11 12:15:06.576 DEBUG group 88 _e-0000e449-78ce-8000-9af5-01075c01075c_291 Processing reference: Group.groupTypeId
+2020-04-11 12:15:06.578 DEBUG group 88 _e-0000e449-78ce-8000-9af5-01075c01075c_291 Processing reference: Group.parentId
+2020-04-11 12:15:06.578 DEBUG group 88 _e-0000e449-78ce-8000-9af5-01075c01075c_291 Processing reference: Group.homePageId
+2020-04-11 12:15:06.578 DEBUG group 88 _e-0000e449-78ce-8000-9af5-01075c01075c_291 Processing reference: Role[name=<null>]
+2020-04-11 12:15:06.578 DEBUG group 88 _e-0000e449-78ce-8000-9af5-01075c01075c_291 Completing produce.
+2020-04-11 12:15:06.578 DEBUG group 88 _e-0000e449-78ce-8000-9af5-01075c01075c_291 Exporting binary resources.
+2020-04-11 12:15:06.578 DEBUG group 88 _e-0000e449-78ce-8000-9af5-01075c01075c_291 Serializing object to XML.
+2020-04-11 12:15:06.583 DEBUG group 88 _e-0000e449-78ce-8000-9af5-01075c01075c_291 Object transported.
+2020-04-11 12:15:06.583 DEBUG application 18841 _a-0000e449-78ce-8000-9ba9-011c48011c48_111466 Processing reference: ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+2020-04-11 12:15:06.583 DEBUG application 18841 _a-0000e449-78ce-8000-9ba9-011c48011c48_111466 Processing reference: ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+2020-04-11 12:15:06.583 DEBUG application 18841 _a-0000e449-78ce-8000-9ba9-011c48011c48_111466 Processing reference: ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+2020-04-11 12:15:06.586 DEBUG processModelFolder 31 _g-0000e449-78ce-8000-f9b7-7f0000014e7a_130 Begin transport.
+2020-04-11 12:15:06.586 DEBUG processModelFolder 31 _g-0000e449-78ce-8000-f9b7-7f0000014e7a_130 Retrieving object data.
+2020-04-11 12:15:06.598 DEBUG processModelFolder 31 _g-0000e449-78ce-8000-f9b7-7f0000014e7a_130 Setting uuids of object references.
+2020-04-11 12:15:06.598 DEBUG processModelFolder 31 _g-0000e449-78ce-8000-f9b7-7f0000014e7a_130 Processing reference: ProcessModelFolder.parentFolderId
+2020-04-11 12:15:06.598 DEBUG processModelFolder 31 _g-0000e449-78ce-8000-f9b7-7f0000014e7a_130 Processing reference: com.appiancorp.suiteapi.process.ProcessRoleMap@26c50632[
+  Role[name=ADMIN_OWNER,usernames=[madhu.mudunuri@valuelabs.com]]
+  Role[name=EDITOR]
+  Role[name=EXPLICIT_NONMEMBER]
+  Role[name=VIEWER]
+  Role[name=MANAGER]
+  Role[name=INITIATOR]
+]
+2020-04-11 12:15:06.598 DEBUG processModelFolder 31 _g-0000e449-78ce-8000-f9b7-7f0000014e7a_130 Processing reference: Role[name=ADMIN_OWNER,usernames=[madhu.mudunuri@valuelabs.com]]
+2020-04-11 12:15:06.599 DEBUG processModelFolder 31 _g-0000e449-78ce-8000-f9b7-7f0000014e7a_130 Processing reference: Role[name=EDITOR]
+2020-04-11 12:15:06.599 DEBUG processModelFolder 31 _g-0000e449-78ce-8000-f9b7-7f0000014e7a_130 Processing reference: Role[name=EXPLICIT_NONMEMBER]
+2020-04-11 12:15:06.599 DEBUG processModelFolder 31 _g-0000e449-78ce-8000-f9b7-7f0000014e7a_130 Processing reference: Role[name=VIEWER]
+2020-04-11 12:15:06.599 DEBUG processModelFolder 31 _g-0000e449-78ce-8000-f9b7-7f0000014e7a_130 Processing reference: Role[name=MANAGER]
+2020-04-11 12:15:06.599 DEBUG processModelFolder 31 _g-0000e449-78ce-8000-f9b7-7f0000014e7a_130 Processing reference: Role[name=INITIATOR]
+2020-04-11 12:15:06.599 DEBUG processModelFolder 31 _g-0000e449-78ce-8000-f9b7-7f0000014e7a_130 Completing produce.
+2020-04-11 12:15:06.599 DEBUG processModelFolder 31 _g-0000e449-78ce-8000-f9b7-7f0000014e7a_130 Exporting binary resources.
+2020-04-11 12:15:06.599 DEBUG processModelFolder 31 _g-0000e449-78ce-8000-f9b7-7f0000014e7a_130 Serializing object to XML.
+2020-04-11 12:15:06.606 DEBUG processModelFolder 31 _g-0000e449-78ce-8000-f9b7-7f0000014e7a_130 Object transported.
+2020-04-11 12:15:06.609 DEBUG processModel 600 0002e44e-8658-8000-f9d9-7f0000014e7a Begin transport.
+2020-04-11 12:15:06.609 DEBUG processModel 600 0002e44e-8658-8000-f9d9-7f0000014e7a Retrieving object data.
+2020-04-11 12:15:06.633 DEBUG processModel 600 0002e44e-8658-8000-f9d9-7f0000014e7a Setting uuids of object references.
+2020-04-11 12:15:06.633 DEBUG processModel 600 0002e44e-8658-8000-f9d9-7f0000014e7a Processing reference: ProcessModelHaul.folderId
+2020-04-11 12:15:06.634 DEBUG processModel 600 0002e44e-8658-8000-f9d9-7f0000014e7a Processing reference: ProcessModelHaul.modelDashboardPageId
+2020-04-11 12:15:06.634 DEBUG processModel 600 0002e44e-8658-8000-f9d9-7f0000014e7a Processing reference: ProcessModelHaul.processDashboardPageId
+2020-04-11 12:15:06.634 DEBUG processModel 600 0002e44e-8658-8000-f9d9-7f0000014e7a Processing reference: ProcessModel.emailAttachmentFolderId
+2020-04-11 12:15:06.634 DEBUG processModel 600 0002e44e-8658-8000-f9d9-7f0000014e7a Processing reference: InternalForm.docId
+2020-04-11 12:15:06.634 DEBUG processModel 600 0002e44e-8658-8000-f9d9-7f0000014e7a Processing reference: InternalForm.docId
+2020-04-11 12:15:06.635 DEBUG processModel 600 0002e44e-8658-8000-f9d9-7f0000014e7a Processing reference: InternalForm.docId
+2020-04-11 12:15:06.635 DEBUG processModel 600 0002e44e-8658-8000-f9d9-7f0000014e7a Processing reference: InternalForm.docId
+2020-04-11 12:15:06.635 DEBUG processModel 600 0002e44e-8658-8000-f9d9-7f0000014e7a Processing reference: InternalForm.docId
+2020-04-11 12:15:06.635 DEBUG processModel 600 0002e44e-8658-8000-f9d9-7f0000014e7a Processing reference: InternalForm.docId
+2020-04-11 12:15:06.636 DEBUG processModel 600 0002e44e-8658-8000-f9d9-7f0000014e7a Processing reference: InternalForm.docId
+2020-04-11 12:15:06.636 DEBUG processModel 600 0002e44e-8658-8000-f9d9-7f0000014e7a Processing reference: InternalForm.docId
+2020-04-11 12:15:06.636 DEBUG processModel 600 0002e44e-8658-8000-f9d9-7f0000014e7a Processing reference: InternalForm.docId
+2020-04-11 12:15:06.636 DEBUG processModel 600 0002e44e-8658-8000-f9d9-7f0000014e7a Processing reference: InternalForm.docId
+2020-04-11 12:15:06.636 DEBUG processModel 600 0002e44e-8658-8000-f9d9-7f0000014e7a Processing reference: InternalForm.docId
+2020-04-11 12:15:06.637 DEBUG processModel 600 0002e44e-8658-8000-f9d9-7f0000014e7a Processing reference: InternalForm.docId
+2020-04-11 12:15:06.637 DEBUG processModel 600 0002e44e-8658-8000-f9d9-7f0000014e7a Processing reference: InternalForm.docId
+2020-04-11 12:15:06.637 DEBUG processModel 600 0002e44e-8658-8000-f9d9-7f0000014e7a Processing reference: InternalForm.docId
+2020-04-11 12:15:06.637 DEBUG processModel 600 0002e44e-8658-8000-f9d9-7f0000014e7a Processing reference: InternalForm.docId
+2020-04-11 12:15:06.638 DEBUG processModel 600 0002e44e-8658-8000-f9d9-7f0000014e7a Processing reference: InternalForm.docId
+2020-04-11 12:15:06.638 DEBUG processModel 600 0002e44e-8658-8000-f9d9-7f0000014e7a Processing reference: InternalForm.docId
+2020-04-11 12:15:06.638 DEBUG processModel 600 0002e44e-8658-8000-f9d9-7f0000014e7a Processing reference: ActivityClassParameter[name=pmID,it=23,v=<null>]
+2020-04-11 12:15:06.639 DEBUG processModel 600 0002e44e-8658-8000-f9d9-7f0000014e7a Processing reference: ActivityClassParameter[name=inMap,it=111,v={}]
+2020-04-11 12:15:06.639 DEBUG processModel 600 0002e44e-8658-8000-f9d9-7f0000014e7a Processing reference: ActivityClassParameter[name=procInheritsPriority,it=1,v=1]
+2020-04-11 12:15:06.639 DEBUG processModel 600 0002e44e-8658-8000-f9d9-7f0000014e7a Processing reference: ActivityClassParameter[name=pmUUID,it=3,v=]
+2020-04-11 12:15:06.639 DEBUG processModel 600 0002e44e-8658-8000-f9d9-7f0000014e7a Processing reference: ActivityClassParameter[name=isAsynchronous,it=26,v=1]
+2020-04-11 12:15:06.639 DEBUG processModel 600 0002e44e-8658-8000-f9d9-7f0000014e7a Processing reference: ActivityClassParameter[name=isTransparent,it=26,v=1]
+2020-04-11 12:15:06.639 DEBUG processModel 600 0002e44e-8658-8000-f9d9-7f0000014e7a Processing reference: ActivityClassParameter[name=inheritSecurity,it=26,v=0]
+2020-04-11 12:15:06.639 DEBUG processModel 600 0002e44e-8658-8000-f9d9-7f0000014e7a Processing reference: com.appiancorp.suiteapi.process.ProcessRoleMap@6bfec335[
+  Role[name=ADMIN_OWNER,usernames=[madhu.mudunuri@valuelabs.com],groupIds=[88]]
+  Role[name=EDITOR]
+  Role[name=EXPLICIT_NONMEMBER]
+  Role[name=VIEWER]
+  Role[name=MANAGER]
+  Role[name=INITIATOR,groupIds=[87]]
+]
+2020-04-11 12:15:06.64 DEBUG processModel 600 0002e44e-8658-8000-f9d9-7f0000014e7a Processing reference: Role[name=ADMIN_OWNER,usernames=[madhu.mudunuri@valuelabs.com],groupIds=[88]]
+2020-04-11 12:15:06.642 DEBUG processModel 600 0002e44e-8658-8000-f9d9-7f0000014e7a Processing reference: Role[name=EDITOR]
+2020-04-11 12:15:06.642 DEBUG processModel 600 0002e44e-8658-8000-f9d9-7f0000014e7a Processing reference: Role[name=EXPLICIT_NONMEMBER]
+2020-04-11 12:15:06.642 DEBUG processModel 600 0002e44e-8658-8000-f9d9-7f0000014e7a Processing reference: Role[name=VIEWER]
+2020-04-11 12:15:06.642 DEBUG processModel 600 0002e44e-8658-8000-f9d9-7f0000014e7a Processing reference: Role[name=MANAGER]
+2020-04-11 12:15:06.642 DEBUG processModel 600 0002e44e-8658-8000-f9d9-7f0000014e7a Processing reference: Role[name=INITIATOR,groupIds=[87]]
+2020-04-11 12:15:06.643 DEBUG processModel 600 0002e44e-8658-8000-f9d9-7f0000014e7a Completing produce.
+2020-04-11 12:15:06.643 DEBUG processModel 600 0002e44e-8658-8000-f9d9-7f0000014e7a Exporting binary resources.
+2020-04-11 12:15:06.643 DEBUG processModel 600 0002e44e-8658-8000-f9d9-7f0000014e7a Serializing object to XML.
+2020-04-11 12:15:06.671 DEBUG processModel 600 0002e44e-8658-8000-f9d9-7f0000014e7a Object transported.
+2020-04-11 12:15:06.671 DEBUG application 18841 _a-0000e449-78ce-8000-9ba9-011c48011c48_111466 Completing produce.
+2020-04-11 12:15:06.671 DEBUG application 18841 _a-0000e449-78ce-8000-9ba9-011c48011c48_111466 Exporting binary resources.
+2020-04-11 12:15:06.671 DEBUG application 18841 _a-0000e449-78ce-8000-9ba9-011c48011c48_111466 Serializing object to XML.
+2020-04-11 12:15:06.681 DEBUG application 18841 _a-0000e449-78ce-8000-9ba9-011c48011c48_111466 Object transported.
